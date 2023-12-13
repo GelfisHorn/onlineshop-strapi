@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "discount_codes",
+  "info": {
+    "singularName": "discount-code",
+    "pluralName": "discount-codes",
+    "displayName": "DiscountCode",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "codigo": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "descuento": {
+      "type": "decimal",
+      "required": true
+    },
+    "usos": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_variant_variants",
+  "info": {
+    "displayName": "variant",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "desdePulgadas": {
+      "type": "integer",
+      "required": true
+    },
+    "hastaPulgadas": {
+      "type": "integer",
+      "required": true
+    },
+    "precio": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}
